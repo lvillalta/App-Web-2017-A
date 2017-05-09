@@ -4,14 +4,31 @@
     <meta charset="UTF-8">
     <title>Hola mundo</title>
     <style>
+        button{
+            /*
+            jerarquia:
+            etiqueta
+            clase
+            id
+            style
+
+            si se tiene varias clases von el mismo nombre, siempre se seleccionara la ultima clase
+            */
+            background-color: brown;
+        }
         .boton-cuidado{
-            background-color: #d99442;
-            color: #76d9c3;
+            background-color: #27a9d9;
+            color: #b3d7d9;
         }
         .boton-exito{
             background-color: #17d951;
-            color: #76d9c3;
+            color: #1f2cd9;
         }
+        .boton-exito{
+            background-color: #d93656;
+            color: #1f2cd9;
+        }
+
         /*
 body {
     background-color: blue;
@@ -53,6 +70,10 @@ div{
 <h1>Hola mundo</h1>
 <button class="boton-cuidado">Destruir mundo</button>
 <button class="boton-exito">Crear mundo</button>
+<h1>Universo</h1>
+<button class="boton-cuidado">Destruir universo</button>
+<button class="boton-exito">Crear universo</button>
+
 <!--
 <div>
 <h1 id="uno">Primer h1</h1>
