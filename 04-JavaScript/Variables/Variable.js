@@ -49,7 +49,48 @@ var objetoComplejo{
         fechaNacimiento: new Date(),
         mayorEdad:true,
         peso:70.2,
-        altura:127
+        altura:127,
+        saltar:function () {
+        console.log("Saltar");
+    },
+    titulo:function(){
+
+    },
+    correr:function(){
+      console.log("Correr")
+
+    },
+    sumar:function(a,b){
+        return a+b;
+    }
+    imprimirnombre:function(){
+ //       return objetoComplejo.nombre + " " + objetoComplejo.apellido;
+   return this.nombre + " " +this.apellido;
+    }
 };
-objetoComplejo.altura;
-objetoComplejo.apellido;
+objetoComplejo.altura; //""127
+objetoComplejo.apellido; //""
+objetoComplejo.nombre; //""
+objetoComplejo.nombre="Luis";
+objetoComplejo.nombre; //Luis
+objetoComplejo.apellido="Villalta";
+objetoComplejo.apellido; //Villalta
+
+
+objetoComplejo.titulo ="Ingeniero";
+//no hacer, ya que da un error en el nivel porque se esta accediendo a un nivel que no existe
+objetoComplejo.titulo.fechaExpedicion = "";
+
+//borra la propiedad nombre
+delete objetoComplejo.nombre;
+
+
+var arregloStrings = ["1","2"];
+//agregar elementos a un arreglo
+arregloStrings.push("3"); // ["1","2","3"]
+arregloStrings.pop(); //["1","2"]
+
+
+//["1","3","2"]
+arregloStrings.splice(1,0,3);
+//["3","2"]
