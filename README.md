@@ -8,3 +8,6 @@ usamos el comando:
 ```
 >>http-server
 ```
+Para probar JavaScript
+plunker
+jsbin
