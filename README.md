@@ -10,3 +10,5 @@ usamos el comando:
 ```
 compilar typescript
 tsc Template\ Strings.ts
+compilar javascript
+node Fat\ arrow\ functions.js
