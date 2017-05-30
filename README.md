@@ -8,3 +8,5 @@ usamos el comando:
 ```
 >>http-server
 ```
+compilar typescript
+tsc Template\ Strings.ts
