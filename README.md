@@ -12,3 +12,4 @@ compilar typescript
 tsc Template\ Strings.ts
 compilar javascript
 node Fat\ arrow\ functions.js
+https://stephengrider.github.io/JSPlaygrounds/
