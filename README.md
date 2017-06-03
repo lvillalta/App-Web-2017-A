@@ -13,3 +13,5 @@ tsc Template\ Strings.ts
 compilar javascript
 node Fat\ arrow\ functions.js
 https://stephengrider.github.io/JSPlaygrounds/
+//se pude poner bootstrap con cdn en plunker
+//plunker se puede poner en front end
