@@ -23,3 +23,7 @@ Lenguaje Markdown
  //npm init
  crear un nuevo package json
  //npm publish
+
+
+ //el npm install machinepack-passwords --save
+ //sirve para añadir dependencias a tu paquete
