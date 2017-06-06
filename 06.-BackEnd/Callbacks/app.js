@@ -4,12 +4,27 @@
 const fs = require('fs');
 const express = require('express');
 const calculadora = require('twj-l-villalta');
+const Passwords=require('machinepack-passwords');
 let a =2,
 b=3,
 resultado;
 resultado =calculadora.calculadoraUdla.sumar(a,b);
 console.log(`Resultado es: ${resultado}`);
 console.log("Empieza");
+let passwordAEncriptar = "1234";
+Passwords.encryptPassword(
+    {
+        password: passwordAEncriptar,
+    }).
+exec({
+    error: (error)=>{
+        console.log(`Error: ${error}`);
+    },
+    success: (resultado)=>{
+        console.log(`Resultado: ${resultado} `);
+    },
+    });
+
 
 /*
 Recibe tres parametros
