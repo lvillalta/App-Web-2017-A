@@ -3,6 +3,12 @@
  */
 const fs = require('fs');
 const express = require('express');
+const calculadora = require('twj-l-villalta');
+let a =2,
+b=3,
+resultado;
+resultado =calculadora.calculadoraUdla.sumar(a,b);
+console.log(`Resultado es: ${resultado}`);
 console.log("Empieza");
 
 /*

@@ -18,4 +18,8 @@ https://stephengrider.github.io/JSPlaygrounds/
 
 //requiere es como importar el paqute de nombre fs
 //require('fs');
-levantar
+//para crear paquetes
+npm login
+npm init
+npm publish
+//npm install twj-l-villalta
