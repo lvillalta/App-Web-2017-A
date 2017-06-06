@@ -15,3 +15,7 @@ node Fat\ arrow\ functions.js
 https://stephengrider.github.io/JSPlaygrounds/
 //se pude poner bootstrap con cdn en plunker
 //plunker se puede poner en front end
+
+//requiere es como importar el paqute de nombre fs
+//require('fs');
+levantar
